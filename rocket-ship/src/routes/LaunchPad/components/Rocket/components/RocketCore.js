@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useMemo} from 'react';
 import '../styles/_rocket.scss';
 
 const SECONDS_TO_TAKEOFF = 5;

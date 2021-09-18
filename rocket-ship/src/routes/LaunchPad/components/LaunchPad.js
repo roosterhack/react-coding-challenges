@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useMemo } from 'react';
 import { ClassRocket, FunctionalRocket } from './Rocket';
 import '../styles/_launchpad.scss';
 
@@ -9,7 +9,7 @@ export default function LaunchPad() {
 
   return (
     <div className="launchpad">
-      <ClassRocket />
+      <FunctionalRocket />
     </div>
   );
 }
