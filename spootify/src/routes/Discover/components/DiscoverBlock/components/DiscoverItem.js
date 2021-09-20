@@ -1,7 +1,8 @@
-import React from 'react';
-import '../styles/_discover-item.scss';
+import React from "react";
+import "../styles/_discover-item.scss";
 
 export default function DiscoverItem({ images, name }) {
+  console.log(images);
   return (
     <div className="discover-item animate__animated animate__fadeIn">
       <div
